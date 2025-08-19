@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Strassen multiplication for 2x2 matrices
+
 void strassen2x2(int A[2][2], int B[2][2], int C[2][2]) {
     int M1 = (A[0][0] + A[1][1]) * (B[0][0] + B[1][1]);
     int M2 = (A[1][0] + A[1][1]) * B[0][0];
@@ -40,3 +40,4 @@ int main() {
 
     return 0;
 }
+
